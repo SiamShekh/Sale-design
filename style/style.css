@@ -1,0 +1,156 @@
+#nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+    align-items: center;
+    background-color: white;
+}
+#Search{
+    border: 0;
+    outline-width: 0;
+    outline: none;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f2f2f2;
+}
+#Search:focus{
+    border: 0;
+    outline-width: 0;
+    outline: none;
+}
+#serach_bar{
+    border: 1px solid lightgray;
+    padding: 1vh 2vh;
+    display: flex;
+}
+.search_icon{
+    width: 2vw;
+    height: 2vw;
+}
+#header_section{
+    height: 100vh;
+    background-position-x: 68.15%;
+    background-position-y: 72.19%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/Image/laptop_bg.jpg');
+    display: flex;
+}
+.our-services{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4px;
+}
+.text{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text-side{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.brand-design,.business-sologan{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 400px;
+    align-items: center;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    margin-top: 5vh;
+}
+.business-sologan{
+    text-align: center;
+    font-size: 45px;
+}
+#contact{
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+}
+.btn{
+    background-color: transparent;
+    border: 3px solid black;
+    padding: 1vw 4vw;
+    width: 15vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn:hover,a:hover{
+    background-color: #000;
+    color: #FFF;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.or{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin: 0vw 2vw;
+    padding-top: 0.5vw;
+    display: flex;
+    justify-content: center;
+}
+.first-section-service-overview{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh;
+}
+.service-first-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5vw;
+}
+.img-service-logo{
+    width: 4vw;
+    height: 4vw;
+}
+.service-contianer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5vw;    
+}
+.service_title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4px;
+    margin: 2vw;
+}
+.service-description{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+    width: 25vw;
+}
