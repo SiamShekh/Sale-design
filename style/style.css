@@ -285,3 +285,29 @@ a{
     height: 3vw;
     border-bottom: 0.3vw solid white;
 }
+
+/* //Phone Screen// */
+
+@media screen and (max-width: 600px) {
+    .first-section-service-overview{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5vh;        
+    }
+
+    .service-description{
+        font-size: 5px;
+        width: 25vw;
+
+    }
+    .service-first-section{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr) ;
+        margin-top: 2.5vw;   
+    }
+    
+}
