@@ -33,7 +33,7 @@ body{
 }
 #serach_bar{
     border: 0.1vw solid lightgray;
-    padding: 1vh 2vh;
+    padding: 1vh 5vh;
     display: flex;
     width: 15vw;
 }
@@ -289,6 +289,31 @@ a{
 /* //Phone Screen// */
 
 @media screen and (max-width: 600px) {
+    *{
+        display: block;
+    }
+    #nav{
+        height: 15vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Search{
+    font-size: 20px;
+    width: 60vw;
+    }
+    #serach_bar{
+        width: 60vw;
+    }
+    ::placeholder{
+        font-size: 20px;
+    }
+
+    .search_icon{
+        width: 5vw;
+        height: 5vw;
+    }
     .first-section-service-overview{
         display: flex;
         flex-direction: column;
@@ -298,7 +323,9 @@ a{
         justify-content: center;
         padding-top: 5vh;        
     }
-
+    #free-speech{
+        display: none;
+    }
     .service-description{
         font-size: 5px;
         width: 25vw;
@@ -309,5 +336,35 @@ a{
         grid-template-columns:repeat(3, 1fr) ;
         margin-top: 2.5vw;   
     }
-    
+ 
+    #text-side{
+        align-items: center;
+    }
+    .our-services{
+        font-size: 16px;
+    }
+    .brand-design{
+        font-size: 30px;
+        width: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #contact{
+        display: block;
+    }
+
+    .btn{
+    padding: 1vw 4vw;
+    margin-top: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border: 0.5vw solid black;
+    font-weight: 700;
+    width:30vw;
+    }
+    .or{
+        font-size: 20px;
+    }
 }
