@@ -47,8 +47,6 @@ body{
     background-position-y: 72.19%;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/67856f1065845df4bf9e75e6/dddd-min.jpg"); */
-    /* background-image: url('../img/laptop_bg.jpg'); */
     display: flex;
 }
 .our-services{
@@ -185,7 +183,6 @@ a{
 .bg_img{
     height: 130vh;
     width: 55vw;
-    background-image: url('/section1bg.jpeg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -252,8 +249,6 @@ a{
     margin-top: 2vw;
 }
 .serivce-section-count{
-    /* background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/560c97ce8255581cb7d65f9d/pexels-photo-2050137.jpeg'); */
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/desk-bgjpeg.jpeg');
 
     background-position: u;
     background-size: cover;
